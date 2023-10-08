@@ -1,8 +1,8 @@
-# Downloaddit
+# Downloaddit (⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧
 
 Este es un programa de línea de comandos llamado "Downloaddit" que te permite descargar contenido de Reddit de manera sencilla. Puedes descargar un solo enlace o varios enlaces a la vez. A continuación, se describen los principales componentes y cómo utilizar el programa.
 
-## Requisitos Previos
+## Requisitos Previos 📜
 
 Asegúrate de tener Python 3 instalado en tu sistema y las siguientes bibliotecas Python:
 
@@ -15,7 +15,7 @@ Puedes instalar las bibliotecas faltantes utilizando el siguiente comando:
 pip install art RedDownloader
 ```
 
-## Cómo Usar
+## Cómo Usar 💻
 
 1. Ejecuta el programa principal `main.py` para comenzar.
 
@@ -39,14 +39,14 @@ python main.py
 
 7. Si seleccionas la opción **3**, el programa se cerrará.
 
-## Estructura de Archivos
+## Estructura de Archivos 📜
 
 - `main.py`: El archivo principal que contiene el menú y controla las opciones de descarga.
 - `sistema.py`: Contiene funciones para limpiar la consola y generar nombres de archivo.
 - `pantalla.py`: Contiene funciones para mostrar información en la consola con diseño.
 - `descargas.py`: Contiene funciones para descargar enlaces de Reddit, ya sea uno solo o varios en una lista.
 
-## Futuras actualizaciones
+## Futuras actualizaciones ♥️
 
 - Agregar una opcion que permita borrar archivos repetidos
 - Interfaz grafica
