@@ -47,6 +47,7 @@ def descargar_contador(links_descarga):  # Funcion para llevar un contador en la
             descarga(url, nombre)
             sp()
             time.sleep(2)
+            pantalla()
     except Exception as e:
         print(f"Error general: {str(e)}")
 
