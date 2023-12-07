@@ -48,15 +48,3 @@ def procesar_archivos_duplicados(directory_path, carpeta_duplicados):
 def mover_a_duplicados(file_path, carpeta_duplicados):
     duplicate_path = os.path.join(carpeta_duplicados, os.path.basename(file_path))
     shutil.move(file_path, duplicate_path)
-
-# def imprimir_duplicados(duplicados):
-#     for file_hash, file_list in duplicados.items():
-#         if len(file_list) > 1:
-#             print("="*50)
-#             file_name = os.path.basename(file_list[0])
-#             print(f"Duplicados de {file_name}:")
-#             for file_path in file_list[1:]:
-#                 print(f"   {os.path.basename(file_path)}")
-#             print("="*50)
-
-#     return duplicados

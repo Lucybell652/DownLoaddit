@@ -1,12 +1,10 @@
-import os
 import time
 from art import *
 from modulos.pantalla import ( # Importamos mensajes en pantalla
     pantalla,
     pantalla_dupli,
     msg_descarga,
-    imprimir_duplicados,
-    # duplicados_terminados,
+    imprimir_duplicados
 )
 from modulos.descargas import ( # Funciones para las descargas
     descargar_reddit,
@@ -15,8 +13,7 @@ from modulos.descargas import ( # Funciones para las descargas
 from modulos.funciones import (
     obtener_ruta_directorio,
     crear_directorio_duplicados,
-    procesar_archivos_duplicados,
-    # imprimir_duplicados
+    procesar_archivos_duplicados
 )
 
 def opcion(respuesta, opcion_valida):
